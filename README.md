@@ -27,7 +27,28 @@ A backend application built using FastAPI for managing Doctors and Patients.
 - Soft delete for doctors
 - SQLite database
 
-
+##structure
+app
+│
+├── api
+│   ├── auth.py
+│   ├── doctor_router.py
+│   └── patient_router.py
+│
+├── models
+│   ├── user.py
+│   ├── doctor.py
+│   └── patient.py
+│
+├── schemas
+│   ├── user.py
+│   ├── doctor.py
+│   └── patient.py
+│
+├── auth.py
+├── database.py
+├── dependencies.py
+└── main.py
 Setup
 1. Create virtual environment
 python -m venv venv
