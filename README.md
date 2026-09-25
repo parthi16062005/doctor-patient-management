@@ -29,33 +29,7 @@ A backend application built using FastAPI for managing Doctors and Patients.
 
 ## Project Structure
 
-doctor_patient_api
-|
-|-- app
-|   |-- api
-|   |   |-- auth.py
-|   |   |-- doctor_router.py
-|   |   |-- patient_router.py
-|   |
-|   |-- models
-|   |   |-- user.py
-|   |   |-- doctor.py
-|   |   |-- patient.py
-|   |
-|   |-- schemas
-|   |   |-- user.py
-|   |   |-- doctor.py
-|   |   |-- patient.py
-|   |
-|   |-- auth.py
-|   |-- database.py
-|   |-- dependencies.py
-|   |-- main.py
-|
-|-- .env
-|-- .gitignore
-|-- requirements.txt
-|-- README.md
+
 
 Setup
 1. Create virtual environment
